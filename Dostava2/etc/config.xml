@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/con
+fig.xsd">
+<default>
+<carriers>
+<dostava2>
+<model>Nova\Dostava2\Model\Carrier\Dostava2</model>
+<active>1</active>
+<name>Nova Dostava</name>
+<title>Nova Dostava</title>
+</dostava2>
+</carriers>
+</default>
+</config>
