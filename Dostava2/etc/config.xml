@@ -9,6 +9,13 @@ fig.xsd">
 <active>1</active>
 <name>Nova Dostava</name>
 <title>Nova Dostava</title>
+<prva_metoda_ukljucena>1</prva_metoda_ukljucena>
+<naziv_prve_metode>Prva metoda dostave</naziv_prve_metode>
+<cijena_prve_metode>25.67</cijena_prve_metode>
+<druga_metoda_omogucena>1</druga_metoda_omogucena>
+<naziv_druge_metode>Druga metoda dostave</naziv_druge_metode>
+<cijena_druge_metode>35.25</cijena_druge_metode>
+<poruka_greske>Ova metoda dostave trenutno nije dostupna.</poruka_greske>
 </dostava2>
 </carriers>
 </default>

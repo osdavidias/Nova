@@ -4,7 +4,8 @@ xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.
 xsd">
 <module name="Nova_Dostava2" setup_version="2.0.0">
 <sequence>
-<module name="Magento_Dostava2"/>
+<!-- Provjerava je li aktivan modula Megento_Shipping o kojem ovisi -->
+<module name="Magento_Shipping"/>
 </sequence>
 </module>
 </config>

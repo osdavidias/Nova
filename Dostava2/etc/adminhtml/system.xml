@@ -20,6 +20,48 @@ showInDefault="1" showInWebsite="1" showInStore="1">
 showInDefault="1" showInWebsite="1" showInStore="1">
 <label>Naslov Metode</label>
 </field>
+<field id="prva_metoda_ukljucena" translate="label" type="select"
+sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="0">
+<label>Omoguci prvu metodu</label>
+<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+</field>
+<field id="naziv_prve_metode" translate="label" type="text"
+sortOrder="40" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Prva metoda dostave</label>
+</field>
+<field id="cijena_prve_metode" translate="label" type="text"
+sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Cijena prve metode</label>
+</field>
+<field id="druga_metoda_ukljucena" translate="label" type="select"
+sortOrder="60" showInDefault="1" showInWebsite="1" showInStore="0">
+<label>Omoguci drugu metodu</label>
+<source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+</field>
+<field id="naziv_druge_metode" translate="label" type="text"
+sortOrder="70" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Druga metoda dostave</label>
+</field>
+<field id="cijena_druge_metode" translate="label" type="text"
+sortOrder="80" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Cijena druge metode</label>
+</field>
+<field id="poruka_greske" translate="label" type="textarea"
+sortOrder="90" showInDefault="1" showInWebsite="1" showInStore="1">
+<label>Poruka o grešci</label>
+</field>
+<field id="sallowspecific" translate="label" type="select"
+sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="0">
+<label>Dostavi u dostupne zemlje</label>
+<frontend_class>shipping-applicable-country</frontend_class>
+<source_model>Magento\Shipping\Model\Config\Source\Allspecificcountries</source_model>
+</field>
+<field id="specificcountry" translate="label" type="multiselect"
+sortOrder="110" showInDefault="1" showInWebsite="1" showInStore="0">
+<label>Dostavi u određene zemlje</label>
+<source_model>Magento\Directory\Model\Config\Source\Country</source_model>
+<can_be_empty>1</can_be_empty>
+</field>
 </group>
 </section>
 </system>
